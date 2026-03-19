@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { HelmetProvider } from "react-helmet-async";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
@@ -17,6 +18,7 @@ import ServicesManager from "./pages/admin/ServicesManager";
 import PortfolioManager from "./pages/admin/PortfolioManager";
 import TestimonialsManager from "./pages/admin/TestimonialsManager";
 import NotFound from "./pages/NotFound";
+import { GlobalSeo } from "@/components/Seo";
 
 const queryClient = new QueryClient();
 
@@ -65,10 +67,13 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
-        <ScrollToTop />
-        <AnimatedRoutes />
-      </BrowserRouter>
+      <HelmetProvider>
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
+          <GlobalSeo />
+          <ScrollToTop />
+          <AnimatedRoutes />
+        </BrowserRouter>
+      </HelmetProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );

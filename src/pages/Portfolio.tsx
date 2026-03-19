@@ -6,6 +6,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { Carousel, CarouselContent, CarouselDots, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import Seo from "@/components/Seo";
 
 interface PortfolioItem {
   id: number;
@@ -63,6 +64,11 @@ const Portfolio = () => {
 
   return (
     <div className="min-h-screen">
+      <Seo
+        title="Portfolio | Web & Mobile Projects by E&S Tech Solutions"
+        description="Browse recent projects by E&S Tech Solutions—websites, mobile apps, dashboards, and digital products designed for speed, clarity, and growth."
+        path="/portfolio"
+      />
       <Navbar />
       <WhatsAppButton />
 

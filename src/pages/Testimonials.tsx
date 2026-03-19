@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
 import { api } from "@/lib/api";
 import { Carousel, type CarouselApi, CarouselContent, CarouselDots, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import Seo from "@/components/Seo";
 
 interface Testimonial {
   id: number;
@@ -58,6 +59,11 @@ const Testimonials = () => {
 
   return (
     <div className="min-h-screen">
+      <Seo
+        title="Client Testimonials | Reviews for E&S Tech Solutions"
+        description="Read client testimonials about E&S Tech Solutions. Premium UI/UX, fast delivery, and reliable web and mobile development results."
+        path="/testimonials"
+      />
       <Navbar />
       <WhatsAppButton />
 

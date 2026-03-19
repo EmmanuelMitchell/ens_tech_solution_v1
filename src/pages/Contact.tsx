@@ -8,6 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { Mail, Phone, MapPin } from "lucide-react";
 import { api } from "@/lib/api"; 
+import Seo from "@/components/Seo";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -51,6 +52,11 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen">
+      <Seo
+        title="Contact E&S Tech Solutions | Start Your Project"
+        description="Contact E&S Tech Solutions to discuss web development, mobile apps, branding, or custom software. Get a fast response and a clear proposal."
+        path="/contact"
+      />
       <Navbar />
       <WhatsAppButton />
 

@@ -7,6 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { BadgeCheck, Cloud, Code, CreditCard, Database, FileText, Globe, Palette, Shield, Smartphone } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { Carousel, CarouselContent, CarouselDots, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import Seo from "@/components/Seo";
 
 interface Service {
   id: number;
@@ -52,6 +53,11 @@ const Services = () => {
 
   return (
     <div className="min-h-screen">
+      <Seo
+        title="Services | Web Development, Mobile Apps & IT Solutions"
+        description="Explore E&S Tech Solutions services: web development, mobile applications, custom software, cloud solutions, branding, and secure IT systems built to scale."
+        path="/services"
+      />
       <Navbar />
       <WhatsAppButton />
 

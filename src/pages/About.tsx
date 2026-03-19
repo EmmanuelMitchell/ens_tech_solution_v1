@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { CircuitBoard, Layers, Sparkles } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
+import Seo from "@/components/Seo";
 
 const About = () => {
   const publicImage = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
@@ -34,6 +35,11 @@ const About = () => {
 
   return (
     <div className="min-h-screen">
+      <Seo
+        title="About E&S Tech Solutions | Trusted Digital Partner"
+        description="Learn about E&S Tech Solutions—our mission, vision, and the team behind premium web development, mobile apps, and custom software delivery."
+        path="/about"
+      />
       <Navbar />
       <WhatsAppButton />
 

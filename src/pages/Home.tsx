@@ -35,6 +35,7 @@ import {
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, type CarouselApi, CarouselContent, CarouselDots, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import Seo from "@/components/Seo";
 
 type HomeSection = "about" | "services" | "portfolio" | "testimonials" | "contact";
 
@@ -275,6 +276,11 @@ const Home = ({ initialSection }: HomeProps) => {
 
   return (
     <div className="min-h-screen">
+      <Seo
+        title="E&S Tech Solutions | Web Development, Mobile Apps & Branding"
+        description="E&S Tech Solutions builds modern websites, mobile apps, and custom software for growing businesses. Fast performance, clean UI/UX, and conversion-focused delivery."
+        path="/"
+      />
       <Navbar />
       <WhatsAppButton />
 
