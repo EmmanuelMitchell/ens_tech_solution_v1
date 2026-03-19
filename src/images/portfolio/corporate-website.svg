@@ -1,0 +1,33 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A2847"/>
+      <stop offset="0.52" stop-color="#2B3E63"/>
+      <stop offset="1" stop-color="#1A2847"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(440 700) rotate(-20) scale(760 760)">
+      <stop stop-color="#39A84A" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#39A84A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g opacity="0.7">
+    <rect x="200" y="170" width="1200" height="560" rx="28" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.14" stroke-width="2"/>
+    <rect x="240" y="220" width="1120" height="70" rx="18" fill="white" fill-opacity="0.08"/>
+    <rect x="240" y="320" width="620" height="56" rx="16" fill="white" fill-opacity="0.12"/>
+    <rect x="240" y="392" width="720" height="28" rx="10" fill="white" fill-opacity="0.09"/>
+    <rect x="240" y="436" width="660" height="28" rx="10" fill="white" fill-opacity="0.07"/>
+    <rect x="240" y="520" width="260" height="56" rx="18" fill="#39A84A" fill-opacity="0.86"/>
+    <rect x="520" y="520" width="220" height="56" rx="18" fill="white" fill-opacity="0.07" stroke="white" stroke-opacity="0.14"/>
+    <rect x="900" y="320" width="460" height="256" rx="24" fill="white" fill-opacity="0.05"/>
+  </g>
+  <g>
+    <path d="M980 540C1032 492 1094 476 1158 462C1252 442 1330 420 1400 366" stroke="#39A84A" stroke-opacity="0.50" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="1158" cy="462" r="10" fill="#39A84A"/>
+  </g>
+  <g>
+    <text x="220" y="118" fill="white" fill-opacity="0.92" font-family="Inter, system-ui, -apple-system, Segoe UI, Arial" font-size="44" font-weight="700">Brand Identity Kit</text>
+    <text x="220" y="178" fill="white" fill-opacity="0.70" font-family="Inter, system-ui, -apple-system, Segoe UI, Arial" font-size="22">Logo • Typography • Premium visual system</text>
+  </g>
+</svg>

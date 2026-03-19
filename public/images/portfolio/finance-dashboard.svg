@@ -1,0 +1,32 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#141F38"/>
+      <stop offset="0.55" stop-color="#1A2847"/>
+      <stop offset="1" stop-color="#2B3E63"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 260) rotate(150) scale(720 720)">
+      <stop stop-color="#39A84A" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#39A84A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g>
+    <rect x="160" y="170" width="1280" height="560" rx="28" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.14" stroke-width="2"/>
+    <rect x="220" y="230" width="520" height="72" rx="18" fill="white" fill-opacity="0.08"/>
+    <rect x="760" y="230" width="620" height="72" rx="18" fill="white" fill-opacity="0.06"/>
+    <rect x="220" y="334" width="1160" height="326" rx="22" fill="white" fill-opacity="0.05"/>
+  </g>
+  <g opacity="0.8">
+    <path d="M300 600L420 540L560 570L720 470L900 510L1080 420L1240 460" stroke="white" stroke-opacity="0.24" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M300 600L420 540L560 570L720 470L900 510L1080 420L1240 460" stroke="#39A84A" stroke-opacity="0.55" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="420" cy="540" r="8" fill="#39A84A"/>
+    <circle cx="720" cy="470" r="8" fill="#39A84A"/>
+    <circle cx="1080" cy="420" r="8" fill="#39A84A"/>
+  </g>
+  <g>
+    <text x="220" y="118" fill="white" fill-opacity="0.92" font-family="Inter, system-ui, -apple-system, Segoe UI, Arial" font-size="44" font-weight="700">Finance Dashboard</text>
+    <text x="220" y="178" fill="white" fill-opacity="0.70" font-family="Inter, system-ui, -apple-system, Segoe UI, Arial" font-size="22">Real-time metrics • Data visualization • Clean analytics UI</text>
+  </g>
+</svg>

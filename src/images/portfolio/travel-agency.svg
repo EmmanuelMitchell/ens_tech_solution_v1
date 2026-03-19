@@ -1,0 +1,52 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A2847"/>
+      <stop offset="0.55" stop-color="#2B3E63"/>
+      <stop offset="1" stop-color="#1A2847"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 240) rotate(135) scale(560 560)">
+      <stop stop-color="#39A84A" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#39A84A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="grid" x1="0" y1="0" x2="72" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g opacity="0.65">
+    <path d="M0 152H1600" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M0 296H1600" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M0 440H1600" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M0 584H1600" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M0 728H1600" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M160 0V900" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M360 0V900" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M560 0V900" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M760 0V900" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M960 0V900" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M1160 0V900" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M1360 0V900" stroke="white" stroke-opacity="0.10" stroke-width="2"/>
+  </g>
+  <g>
+    <path d="M280 590C432 442 560 494 650 384C758 252 936 258 1050 328C1216 430 1328 372 1420 284" stroke="#39A84A" stroke-opacity="0.55" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="650" cy="384" r="10" fill="#39A84A"/>
+    <circle cx="1050" cy="328" r="10" fill="#39A84A"/>
+    <circle cx="1420" cy="284" r="10" fill="#39A84A"/>
+  </g>
+  <g>
+    <rect x="180" y="180" width="1240" height="540" rx="28" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.14"/>
+    <rect x="220" y="220" width="1160" height="64" rx="18" fill="white" fill-opacity="0.07"/>
+    <rect x="220" y="316" width="520" height="46" rx="14" fill="white" fill-opacity="0.12"/>
+    <rect x="220" y="382" width="700" height="28" rx="10" fill="white" fill-opacity="0.10"/>
+    <rect x="220" y="424" width="640" height="28" rx="10" fill="white" fill-opacity="0.08"/>
+    <rect x="220" y="520" width="240" height="54" rx="18" fill="#39A84A" fill-opacity="0.85"/>
+    <rect x="480" y="520" width="220" height="54" rx="18" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.12"/>
+  </g>
+  <g>
+    <text x="240" y="350" fill="white" fill-opacity="0.92" font-family="Inter, system-ui, -apple-system, Segoe UI, Arial" font-size="44" font-weight="700">Travel Agency Website</text>
+    <text x="240" y="462" fill="white" fill-opacity="0.70" font-family="Inter, system-ui, -apple-system, Segoe UI, Arial" font-size="22">Premium booking experience • Fast, modern UI • Mobile-first</text>
+  </g>
+</svg>
